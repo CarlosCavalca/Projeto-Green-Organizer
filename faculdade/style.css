@@ -29,7 +29,7 @@ header{
 }
 .navmenu a{
     color: #2c2c2c;
-    font-size: 16px;
+    font-size: 19px;
     text-transform: capitalize;
     padding: 10px 20px;
     font-weight: 400;
@@ -67,6 +67,9 @@ header{
 }
 section{
     padding: 5% 10%;
+}
+.slide{
+    padding: 15% 10%;
 }
 .main-home{
     width: 100%;
@@ -131,7 +134,7 @@ section{
     padding: 12px 12px;
 }
 .down i:hover{
-    background-color: yellow;
+    background-color: #ffff00;
     color: #000;
     transition: all .60s ease;
 }
@@ -259,37 +262,6 @@ header.sticky{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(380px, auto));
     gap: 1rem;
-}
-.cart{
-    color: #000;
-    transition: all .42s ease;
-}
-.cart:hover{
-    transform: scale(1.1);
-    color: yellow;
-}
-.cart h5{
-    color: #636872;
-    font-size: 14px;
-    text-transform: capitalize;
-    font-weight: 500;
-}
-.cart h4{
-    color: #111;
-    font-size: 18px;
-    font-weight: 600;
-}
-.cart p{
-    color: #707070;
-    font-size: 15px;
-    max-width: 381px;
-    line-height: 25px;
-    margin-bottom: 12px;
-}
-.cart h6{
-    color: #151515;
-    font-size: 14px;
-    font-weight: 500;
 }
 .contact{
     background-color: #f3f4f6;
